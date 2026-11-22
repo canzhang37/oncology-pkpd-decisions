@@ -1,0 +1,12 @@
+P1   MET    M3 relative bias CL/F +2.0%, V/F +1.4% (limit 5%)
+P2   MET    M1 largest |bias| in CL/F, V/F 7.8%; M5 largest in CL/F, V/F, ka 5.9% (each must exceed 5%)
+P3   MET    small truth 7.1 pts: one dose 13.7, pooled 11.6, adjusted 7.2, by arm 7.2
+P4   MET    choose 200 mg: small truth pooled 61% vs adjusted 32%; large truth adjusted 89% vs by arm 82%
+P5   MET    arm effect log d 1.21 (truth 1.10), log g -0.29 (truth -0.36), noise SD 0.121 (0.12), b_g 0.97 (0.8)
+P6   MET    S1 go: response rule 100%-100%, model rule 4%-8% across cells
+P7   MET    S2 model minus OS go rate: +27 to +44 points; at 60/arm, 8 weeks +42
+P8   NOT MET S2, 60/arm: model go rate 86% with 6-week scans, 95% with 12-week scans
+P9   MET    S4 median predicted HR 0.85; at 90/arm OS minus model go rate +10 to +16 points
+C2   MET    refitted M3 objective values match A1 in 20 of 20 studies (max diff 0)
+P10  MET    400 mg median RMSE: ER model 9.1, XGBoost 24.9, logistic 21.9 points
+P11  MET    median RMSE ER vs XGBoost: 100 mg 1.7 vs 6.4, 200 mg 2.7 vs 8.6 points

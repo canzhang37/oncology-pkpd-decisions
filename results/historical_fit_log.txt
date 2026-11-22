@@ -1,0 +1,1 @@
+SAEM fit 26 s, 600 patients, 2235 scans, 469 deaths, cor(EBE eta_g, grid posterior mean log g) 0.996

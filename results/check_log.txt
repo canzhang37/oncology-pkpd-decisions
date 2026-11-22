@@ -1,0 +1,8 @@
+(a) PK closed form vs rxode2, max rel. diff    4.4e-16                      PASS
+(a2) steady-state records vs all doses, max rel. 0.0024                       PASS
+(b) grid argmax vs truth, max |log error|      0.089                        PASS
+(c) grid EM mean log g, |error|                0.023                        PASS
+(d) Cox on simulated OS, max |coef error|      0.005                        PASS
+(e) BLQ records (M3 censored, dropped)         60                           PASS
+(f) adjusted ER gain vs truth, |error|         0                            PASS
+(f) by-arm gain vs truth, |error|              9e-04                        PASS
